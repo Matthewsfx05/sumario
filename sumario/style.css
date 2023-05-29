@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    font-family:'Hanken Grotesk', sans-serif;
+}
+
+header{
+    color: #fff;
+    background: rgb(81,70,255);
+background: linear-gradient(90deg, rgba(81,70,255,1) 0%, rgba(81,70,255,1) 0%);
+    height: 360px;
+    width: 350px;
+    border-radius: 30px;
+}
+header h3{
+    font-size: 23px;
+    color: rgb(171, 172, 173);
+}
+
+.dog{
+    margin-top: 30px;
+}
+
+header h1{
+    margin-top: 50px;
+    font-size: 60px;
+    color: white;
+    background: rgb(44,38,136);
+background: linear-gradient(90deg, rgba(44,38,136,1) 33%, rgba(44,38,136,1) 78%);
+    width: 115px;
+    height: 110px;
+    
+    border-radius: 65px;
+}
+header h1 p{
+    color: rgb(212, 219, 226);
+   margin-top: 15px;
+    font-size: 20px;
+}
+
+header h2{
+    margin-top: 50px;
+    font-size: 30px;
+}
